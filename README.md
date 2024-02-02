@@ -1,4 +1,4 @@
-## Introcuction to the Machine Learning
+## Introduction to the Machine Learning
 The soul purpose of this repository is to learn the basics of the machine learning with out diving into the details of how
 each of the machine learning algorithms work. While working in this repositoty I will be focusing in how to solve the real world 
 problems with out diving into the underlying mathematics involved in each of the machine learning algorithm. I will be comprehending the knowledge that i learn from the book: "Introduction to Machine Learning with Python"
@@ -72,7 +72,18 @@ However, the regression problems, predicting a contineous number, or floating po
 One way to distingusish between classification and regression problems is, is ther is any continuity in the expected output from the model, then, it's a regression problem, but if the problem involves prediction of some kind of category then it's a classification problem. 
 
 ## Generalization, Overfitting, and Underfitting
+
+### Generialization
 If the machine learning algorithm is able to learn from the training data and is able to accurately predict the output for the training data set, then we say model is able to generalize from training set to test data set. So our main goal is to built the model which is able to generalize accurately.
+
+### Overfitting
+
+When we  train out model with too much details and noise, then our model cannot generalize from training data to the test data. When the model gets trained with too many data and too much details, then model is said to be overfitted. Or in the simple lanuage we can say model is overfitted, when we train the model too closely to particularities of the training data set and is able to predict on the test data set. In this case model, cannot correctly predict for the new data, which is out main objective.More complex the model is, it is able to predict more accurately, however, if the model is too complex, then it will start focusing in too much details and will not be able to predict correctly.
+
+### Underfitting
+When the model is too simple to capture the complexilities of the data and is not able to predict accurately in the test data set then it is called underfitting.
+
+
 
 
 
