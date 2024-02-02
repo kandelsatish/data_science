@@ -3,6 +3,7 @@ The soul purpose of this repository is to learn the basics of the machine learni
 each of the machine learning algorithms work. While working in this repositoty I will be focusing in how to solve the real world 
 problems with out diving into the underlying mathematics involved in each of the machine learning algorithm. I will be comprehending the knowledge that i learn from the book: "Introduction to Machine Learning with Python"
 
+## Chapter 1
 
 ## What is machine learning and why is it used?
 Machine learning is the research field at the intersection of Statistics, Artificial Intelligence and Computer Science, that is used to extract the knowlegde from the data. Unlike the traditional intelligent system, which were created with the if else rules
@@ -56,6 +57,22 @@ k is a number of neighbours that model should consider while making prediction.
 ## Estimator classes
 all the machine learning models are implemented in their own classes which are called the Estimator classes.
 
+
+
+## Chapter 2: Supervised Learning
+Supervised learning is one of the most popular and most successful machine learning algorithm, which should be used when we have an example data set with input/output pair. Our algorithm learns from such examples which includes the training data set and algorithm should be able to predict the output for unseen dataset.
+
+## Classification and Regression
+These tow are the types of supervised machine learning algorithms. 
+
+In the classification algorithms the aim is to predict the classes, which are the set of predefined labels. The classification algorithms can be further classifed into two categories: binary classification and multiclass classification. The output of the binary classification is like yes/no, i.e there are only two possible outcomes of the model, but multi class classification is like classifying the iris species into classes(setosa, versicolor, or virginica), which involves multiple possible outcomes.
+
+However, the regression problems, predicting a contineous number, or floating point number with the help of person's age, job title, experience and so on. 
+
+One way to distingusish between classification and regression problems is, is ther is any continuity in the expected output from the model, then, it's a regression problem, but if the problem involves prediction of some kind of category then it's a classification problem. 
+
+## Generalization, Overfitting, and Underfitting
+If the machine learning algorithm is able to learn from the training data and is able to accurately predict the output for the training data set, then we say model is able to generalize from training set to test data set. So our main goal is to built the model which is able to generalize accurately.
 
 
 
